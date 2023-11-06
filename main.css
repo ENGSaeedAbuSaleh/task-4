@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+}
+.navbar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100px;
+    width: 100%;
+    background-color: #212529;
+    font-weight: lighter;
+    line-height: 0.5;
+
+}
+.container{
+    margin-left: 70px;
+    padding:30px 50px;
+    text-align: center;
+    float:none;
+    justify-content: center;
+    
+}
+.navbar-logo img{
+    height: 40px;
+    width: 180px ;
+    justify-content: left;
+    float: left;
+}
+.navbar-list{
+    float: none;
+    list-style: none;
+    padding-left: 700px;
+    justify-content: right;
+}
+.navbar-item
+{
+    display: inline;
+    padding-right: 25px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:goldenrod;
+}
+/* ........... */
+.headsection{
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    background-image: url(./images/header-bg.jpg);
+    color: white;
+    background-size: cover;
+
+}
+header .container{
+    display: block;
+    height: 350px;
+    padding: 180px;
+}
+.headsection-title{
+ font-size:xx-large;
+font-weight: bold;
+font-style: italic;
+padding-bottom: 20px;
+ 
+}
+.headsection-upper{
+  font-size: 4.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+header a{
+    text-transform: uppercase;
+    font-weight: 900;
+    border: 1px ;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #ffc800;
+}
+header a:hover{
+    color: white;
+    background-color: goldenrod;
+}
+/* .............. */
+.portfolio{
+    background-color:aliceblue;
+    height: 1150px;
+    width: 100%;
+    color: black;
+    display: block;
+}
+.portfolio .container{
+    display: block;
+    width: 1300px;
+    margin: 0px 100px;
+}
+.portfolio-header {
+    height: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+    display: block;
+}
+.portfolio-header h2{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+.portfolio-header h3{
+    font-weight: lighter;
+    opacity: 0.8;
+    font-style: italic;
+}
+.portfolio-content{
+    height: 800px;
+    width: 100%;
+    float: right;
+}
+.item-container{
+    float: left;
+    height: 400px;
+    width: 420px; 
+    margin-bottom: 15px;
+}
+.item{
+    height: 400px;
+    width: 400px;
+    padding: 0px;
+    background-color: white;
+}
+.portfolio-link img{
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+}
+.caption-title{
+    font-weight: bolder;
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+.caption-text{
+    font-style: italic;
+    opacity: 0.8;
+}
